@@ -4,7 +4,6 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 class HomeModule extends ChildModule {
   @override
-  // TODO: implement binds
   List<Bind> get binds => [
         Bind(
           (i) => HomeController(),
@@ -12,7 +11,6 @@ class HomeModule extends ChildModule {
       ];
 
   @override
-  // TODO: implement routers
   List<Router> get routers => [
         Router(
           '/',
